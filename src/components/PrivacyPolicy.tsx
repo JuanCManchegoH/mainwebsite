@@ -1,8 +1,8 @@
-import { Dispatch, SetStateAction } from "react";
+import { Dispatch, SetStateAction } from 'react';
 
 interface Props {
-  open: boolean 
-  setOpen: Dispatch<SetStateAction<boolean>>
+  open: boolean;
+  setOpen: Dispatch<SetStateAction<boolean>>;
 }
 export default function PrivacyPolicy({ open, setOpen }: Props) {
   return (
@@ -78,7 +78,7 @@ export default function PrivacyPolicy({ open, setOpen }: Props) {
             </p>
             <ul className="list-disc">
               <li>
-                <strong >Datos públicos:</strong> Es el dato que no sea privado o sensible. Por ejemplo: número y tipo de documento de identidad, información contenida en documentos públicos, estado
+                <strong>Datos públicos:</strong> Es el dato que no sea privado o sensible. Por ejemplo: número y tipo de documento de identidad, información contenida en documentos públicos, estado
                 civil, oficio o profesión, teléfono y correo electrónico corporativos.
               </li>
               <li>
@@ -92,7 +92,7 @@ export default function PrivacyPolicy({ open, setOpen }: Props) {
               </li>
             </ul>
 
-            <h2 className="font-bold" >GENERALES</h2>
+            <h2 className="font-bold">GENERALES</h2>
             <p>
               Tratamiento al cual serán sometidos los datos personales: MAIN usará la información personal de sus clientes para los fines autorizados e informados al titular y aquellos señalados en la
               presente política, siempre que el tratamiento obedezca a un fin legítimo y sea proporcional de acuerdo con la vinculación del cliente, particularmente para lo que resulte necesario para
@@ -121,7 +121,7 @@ export default function PrivacyPolicy({ open, setOpen }: Props) {
             </ul>
             <h2 className="font-bold">TRATAMIENTO</h2>
             <p>Se prohíbe el tratamiento de datos sensibles, excepto cuando:</p>
-            <ul >
+            <ul>
               <li>El titular haya dado su autorización explícita a dicho tratamiento, salvo en los casos que por ley no sea requerido el otorgamiento de dicha autorización.</li>
               <li>
                 El tratamiento sea necesario para salvaguardar el interés vital del titular y este se encuentre física o jurídicamente incapacitado. En estos eventos, los representantes legales
@@ -186,7 +186,6 @@ export default function PrivacyPolicy({ open, setOpen }: Props) {
           </div>
         </div>
       </div>
-     
     </>
   );
 }
