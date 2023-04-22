@@ -15,7 +15,6 @@ export default function Home() {
         <Herosection />
         <AboutPrisma />
         <AboutUS />
-        
         <TeamSection />
         <Contact />
       </main>
