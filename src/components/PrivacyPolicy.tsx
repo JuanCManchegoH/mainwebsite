@@ -1,10 +1,4 @@
-import { Dispatch, SetStateAction } from 'react';
-
-interface Props {
-  open: boolean;
-  setOpen: Dispatch<SetStateAction<boolean>>;
-}
-export default function PrivacyPolicy({ open, setOpen }: Props) {
+export default function PrivacyPolicy() {
   return (
     <>
       <div className="relative py-4 bg-white overflow-hidden">
@@ -38,30 +32,28 @@ export default function PrivacyPolicy({ open, setOpen }: Props) {
         </div>
         <div className="relative px-9 sm:px-9 lg:px-11">
           <div className="max-w-prose mx-auto text-lg">
-          <h1 className="text-center">
-         <span className="block text-base text-orange-600 font-semibold tracking-wide uppercase">
-          MAIN
-         </span>
-         <span className="mt-4 block text-2xl font-extrabold text-gray-900 sm:text-3xl uppercase leading-12">
-          Política De Tratamiento De Datos Y Manejo De La Información
-         </span>
-         </h1>
-         <div className="mt-8 text-gray-500 text-justify">
-         <p className="text-lg font-semibold">
-         RESPONSABLE DEL TRATAMIENTO DE DATOS
-        </p>
-          <p className="mt-4 text-base">
-         Nombre: Main Módulos Aplicaciones e Innovación S.A.S en adelante “MAIN”.<br />
-         Domicilio: Bogotá D.C.<br />
-         Dirección: Carrera 7B N° 123 46<br />
-         Correo electrónico: notificacionesclaro@main.com<br />
-         Página Web:{' '}
-       <a className="text-gray-600 underline" target="_blank" rel="noopener noreferrer" href="https://mainhightech.com/#">
-        www.mainhightech.com
-      </a>
-    </p>
-  </div>
-</div>
+            <h1 className="text-center">
+              <span className="block text-base text-orange-600 font-semibold tracking-wide uppercase">MAIN</span>
+              <span className="mt-4 block text-2xl font-extrabold text-gray-900 sm:text-3xl uppercase leading-12">Política De Tratamiento De Datos Y Manejo De La Información</span>
+            </h1>
+            <div className="mt-8 text-gray-500 text-justify">
+              <p className="text-lg font-semibold">RESPONSABLE DEL TRATAMIENTO DE DATOS</p>
+              <p className="mt-4 text-base">
+                Nombre: Main Módulos Aplicaciones e Innovación S.A.S en adelante “MAIN”.
+                <br />
+                Domicilio: Bogotá D.C.
+                <br />
+                Dirección: Carrera 7B N° 123 46
+                <br />
+                Correo electrónico: notificacionesclaro@main.com
+                <br />
+                Página Web:{' '}
+                <a className="text-gray-600 underline" target="_blank" rel="noopener noreferrer" href="https://mainhightech.com/#">
+                  www.mainhightech.com
+                </a>
+              </p>
+            </div>
+          </div>
           <div className="mx-auto mt-6 prose prose-indigo prose-lg text-gray-500 text-justify">
             <p>
               Main Módulos Aplicaciones e Innovación S.A.S. En desarrollo de sus principios: responsabilidad, respeto, transparencia y equidad, determinan la información de sus empleados, clientes y
