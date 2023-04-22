@@ -153,7 +153,7 @@ export default function Contact() {
           </div>
         </form>
       </div>
-      <SlideOver open={open} setOpen={setOpen} title="Politicas de privacidad.">
+      <SlideOver open={open} setOpen={setOpen} title="">
         <PrivacyPolicy />
       </SlideOver>
     </>
