@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { SetStateAction, useState } from 'react';
 import { Switch } from '@headlessui/react';
 import SlideOver from '@/common/modals/SlideOver';
 import PrivacyPolicy from './PrivacyPolicy';
@@ -154,7 +154,9 @@ export default function Contact() {
         </form>
       </div>
       <SlideOver open={open} setOpen={setOpen} title="">
-        <PrivacyPolicy />
+        <PrivacyPolicy open={false} setOpen={function (value: SetStateAction<boolean>): void {
+          throw new Error('Function not implemented.');
+        } }/>
       </SlideOver>
     </>
   );

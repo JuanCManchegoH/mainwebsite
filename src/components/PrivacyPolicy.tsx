@@ -62,7 +62,6 @@ export default function PrivacyPolicy({ open, setOpen }: Props) {
     </p>
   </div>
 </div>
-
           <div className="mx-auto mt-6 prose prose-indigo prose-lg text-gray-500 text-justify">
             <p>
               Main Módulos Aplicaciones e Innovación S.A.S. En desarrollo de sus principios: responsabilidad, respeto, transparencia y equidad, determinan la información de sus empleados, clientes y
