@@ -75,11 +75,11 @@ export default function Contact() {
               }}
             />
           </div>
-          <div className="mx-auto max-w-2xl text-center">
+          <div className="mx-auto max-w-2xl text-center flex space-y-2 flex-col">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contactanos</h2>
-            <p>¡No esperes más para dar el siguiente paso hacia el éxito!</p>
+            <span>¡No esperes más para dar el siguiente paso hacia el éxito!</span>
           </div>
-          <form onSubmit={sendEmail} className="mx-auto mt-16 max-w-xl sm:mt-20">
+          <form onSubmit={sendEmail} className="mx-auto mt-5 max-w-xl sm:mt-9">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
               <div className="sm:col-span-2">
                 <label htmlFor="user_name" className="block text-sm font-semibold leading-6 text-gray-900">

@@ -1,23 +1,23 @@
-import { LifebuoyIcon, NewspaperIcon, PhoneIcon } from '@heroicons/react/20/solid';
+import { ArrowTrendingUpIcon, CheckBadgeIcon, RocketLaunchIcon } from '@heroicons/react/20/solid';
 
 const cards = [
   {
     name: 'Misión y valores.',
     description:
       'En Main, transformamos tus procesos de negocio con soluciones innovadoras y eficaces, elevando tu eficiencia y calidad. Somos tu aliado estratégico comprometido con la excelencia, la innovación y la integridad.',
-    icon: PhoneIcon,
+    icon: RocketLaunchIcon,
   },
   {
     name: 'Visión',
     description:
       'Somos una empresa colombiana líder en soluciones innovadoras que generan un impacto significativo en la industria. Nuestros módulos y aplicaciones son ágiles y siempre están a la vanguardia de la tecnología mundial.',
-    icon: LifebuoyIcon,
+    icon: CheckBadgeIcon,
   },
   {
     name: 'Propuesta de Valor',
     description:
       'Ofrecemos soluciones innovadoras para la transformación digital de tu empresa, aumentando la productividad y optimizando tus procesos. Aliémonos para brindarte una ventaja competitiva significativa. ¡Contáctanos ahora!',
-    icon: NewspaperIcon,
+    icon: ArrowTrendingUpIcon,
   },
 ];
 
@@ -36,10 +36,10 @@ export default function AboutUS() {
         <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3 lg:gap-8">
           {cards.map((card) => (
             <div key={card.name} className="flex gap-x-4 rounded-xl bg-white/5 p-6 ring-1 ring-inset ring-white/10">
-              <card.icon className="h-7 w-5 flex-none text-orange-500" aria-hidden="true" />
-              <div className="text-base leading-7">
-                <h3 className="font-semibold text-white">{card.name}</h3>
-                <p className="mt-2 text-gray-300">{card.description}</p>
+              <card.icon className="h-9 w-6 flex-none text-orange-500" aria-hidden="true" />
+              <div className="leading-7">
+                <h3 className="font-semibold text-lg text-white">{card.name}</h3>
+                <p className="mt-2 text-justify text-base text-gray-300">{card.description}</p>
               </div>
             </div>
           ))}

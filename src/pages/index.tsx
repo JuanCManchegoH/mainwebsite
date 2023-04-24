@@ -1,4 +1,3 @@
-import AboutPrisma from '@/components/AboutPrisma';
 import Herosection from '../components/HeroSection';
 import Head from 'next/head';
 import AboutUS from '@/components/AboutUs';
@@ -6,6 +5,7 @@ import TeamSection from '@/components/TeamSection';
 import Contact from '@/components/Contact';
 import Header from '@/components/header';
 import Footer from '@/components/Footer';
+import { AboutPrisma } from '@/components/AboutPrisma';
 
 export default function Home() {
   return (
