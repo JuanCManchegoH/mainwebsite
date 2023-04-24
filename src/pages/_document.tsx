@@ -8,10 +8,7 @@ export default function Document() {
         <meta name="keywords" content="MAIN, Prisma, aliado estratégico, eficiencia, agilidad" />
         <meta
           name="description"
-          content="Conoce esta ventana al futuro de la organización del personal y agiliza los procesos productivos de forma práctica y tecnológica en pocos pasos.
-                  Ahorra tiempo y Dinero
-                  Integra los procesos de tu empresa
-                  Obtén un mes de prueba."
+          content="En Main, transformamos tus procesos de negocio con soluciones innovadoras y eficaces, elevando tu eficiencia y calidad. Somos tu aliado estratégico comprometido con la excelencia, la innovación y la integridad, y nos mantenemos siempre en vanguardia del mercado. Contamos con altos estándares éticos y de colaboración."
         ></meta>
         <meta name="autor" content="MAIN - Módulos, Aplicaciones e Innovación"></meta>
       </Head>
