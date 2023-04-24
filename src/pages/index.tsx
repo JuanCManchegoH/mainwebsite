@@ -4,6 +4,8 @@ import Head from 'next/head';
 import AboutUS from '@/components/AboutUs';
 import TeamSection from '@/components/TeamSection';
 import Contact from '@/components/Contact';
+import Header from '@/components/header';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -11,6 +13,7 @@ export default function Home() {
       <Head>
         <title>MAIN - Incio</title>
       </Head>
+      <Header />
       <main>
         <Herosection />
         <AboutPrisma />
@@ -18,6 +21,7 @@ export default function Home() {
         <TeamSection />
         <Contact />
       </main>
+      <Footer />
     </>
   );
 }
