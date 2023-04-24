@@ -5,9 +5,10 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <link rel="shortcut icon" href="/isotipo.svg" type="image/x-icon" />
+        <meta name="keywords" content="MAIN, Prisma, aliado estratégico, eficiencia, agilidad" />
         <meta
           name="description"
-          content="Conoce esta ventana al futuro de la organización del personal y agiliza los procesos productivos de forma practica y tecnológica en pocos pasos.
+          content="Conoce esta ventana al futuro de la organización del personal y agiliza los procesos productivos de forma práctica y tecnológica en pocos pasos.
                   Ahorra tiempo y Dinero
                   Integra los procesos de tu empresa
                   Obtén un mes de prueba."

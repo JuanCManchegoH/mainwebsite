@@ -10,10 +10,10 @@ const navigation = {
 export default function Footer() {
   return (
     <footer className="bg-white">
-      <div className="mx-auto max-w-7xl overflow-hidden px-6 py-10 sm:py-12 lg:px-8">
-        <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
+      <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+        <nav className="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
           {navigation.main.map((item) => (
-            <div key={item.name} className="pb-6">
+            <div key={item.name} className="px-5 py-2">
               <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
                 {item.name}
               </a>

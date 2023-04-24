@@ -4,6 +4,7 @@ import SlideOver from '@/common/modals/SlideOver';
 import PrivacyPolicy from './PrivacyPolicy';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function classNames(...classes: String[]) {
   return classes.filter(Boolean).join(' ');
@@ -46,6 +47,7 @@ export default function Contact() {
   const sendEmail = (e: any) => {
     e.preventDefault();
     if (!agreed) {
+      notify('Necesita aceptar politica y privacidad', 'error');
       return;
     }
 
@@ -55,7 +57,7 @@ export default function Contact() {
         setForm({ name: '', email: '', phone: '', message: '' });
       },
       (error) => {
-        notify('Necesita aceptar politica de privacidad', 'error');
+        notify('Ocurrio un error, vuelve a intentarlo mas tarde', 'error');
         console.log(error.text);
       }
     );
@@ -76,7 +78,7 @@ export default function Contact() {
             />
           </div>
           <div className="mx-auto max-w-2xl text-center flex space-y-2 flex-col">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contactanos</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Contáctanos</h2>
             <span>¡No esperes más para dar el siguiente paso hacia el éxito!</span>
           </div>
           <form onSubmit={sendEmail} className="mx-auto mt-5 max-w-xl sm:mt-9">
