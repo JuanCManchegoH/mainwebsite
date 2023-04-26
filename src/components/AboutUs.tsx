@@ -25,7 +25,7 @@ export default function AboutUS() {
   const bgImage = 'https://images.pexels.com/photos/5520323/pexels-photo-5520323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1';
   return (
     <section id="AboutUs">
-      <div className="relative isolate overflow-hidden bg-gray-900 px-20 py-24 sm:py-32">
+      <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-24 sm:py-32 sm:px-10">
         <img src={bgImage} alt="" className=" bg-gray-700 mix-blend-multiply absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center" />
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Sobre nosotros</h2>
@@ -39,7 +39,7 @@ export default function AboutUS() {
               <card.icon className="h-9 w-6 flex-none text-orange-500" aria-hidden="true" />
               <div className="leading-7">
                 <h3 className="font-semibold text-lg text-white">{card.name}</h3>
-                <p className="mt-2 text-justify text-base text-gray-300">{card.description}</p>
+                <p className="mt-2 text-white">{card.description}</p>
               </div>
             </div>
           ))}
