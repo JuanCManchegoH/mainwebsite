@@ -11,22 +11,17 @@ const people = [
   },
   {
     name: 'Camilo Ándres Quintero',
-    role: 'Developer',
+    role: 'Frontend Developer',
     imageUrl: '/CamiloQuintero.jpeg',
   },
   {
     name: 'Daniel Felipe Gonzales',
-    role: 'Developer',
+    role: 'Backend Developer',
     imageUrl: '/DanielGonzales.jpeg',
   },
   {
-    name: 'Shelsyn Elizabeth Guio',
-    role: 'Developer',
-    imageUrl: '/ShelsynGuio.jpg',
-  },
-  {
     name: 'Felipe Pinzón Gómez',
-    role: 'Developer',
+    role: 'Frontend Developer',
     imageUrl: '/FelipePinzon.jpg',
   },
   // More people...
