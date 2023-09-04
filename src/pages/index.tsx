@@ -1,7 +1,6 @@
 import Herosection from '../components/HeroSection';
 import Head from 'next/head';
 import AboutUS from '@/components/AboutUs';
-import TeamSection from '@/components/TeamSection';
 import Contact from '@/components/Contact';
 import Header from '@/components/header';
 import Footer from '@/components/Footer';
@@ -18,7 +17,6 @@ export default function Home() {
         <Herosection />
         <AboutPrisma />
         <AboutUS />
-        <TeamSection />
         <Contact />
       </main>
       <Footer />
